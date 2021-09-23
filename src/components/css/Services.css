@@ -1,0 +1,92 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #fdfdfd;
+  padding: 1.5rem 18%;
+  justify-content: center;
+}
+
+.services-title {
+  font-size: 3rem;
+  place-self: center;
+}
+
+.services {
+  font-size: 1.5rem;
+  grid-column: 1 / span 3;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.services button {
+  background-color: #e95a00;
+  color: #fdfdfd;
+  border: 1px solid #e95a00;
+  border-radius: 5%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  place-self: center;
+  padding: 0.5rem;
+  width: 15rem;
+}
+
+.services button:hover {
+  background-color: #fdfdfd;
+  color: #e95a00;
+  border: 1px solid #e95a00;
+}
+
+.services button:active {
+  animation-name: clickerino;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+.service-item-container {
+  padding: 1rem 4.8rem;
+  text-align: justify;
+  animation-name: slideInFromTop;
+  animation-duration: 0.5s;
+  animation-timing-function: linear;
+}
+
+@keyframes clickerino {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.78);
+  }
+}
+
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(-20%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 1130px) {
+  .services-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.6rem;
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+
+  .services-title {
+    font-size: 2rem;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .services button {
+    margin: 1rem 0;
+  }
+}

@@ -1,0 +1,162 @@
+html {
+  height: 100%;
+}
+
+.profileImage {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.cont_ppal {
+  margin: 0% 30%;
+  max-width: 1900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.userInfo {
+  margin: 3% 0%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+.userName {
+  background: red;
+  padding-left: 30px;
+  margin-top: 2%;
+  background-color: #fdfdfd;
+  border-radius: 25px;
+  height: 48px;
+}
+.userEmail {
+  background: blue;
+  padding-left: 30px;
+  margin-top: 2%;
+  background-color: #fdfdfd;
+  border-radius: 25px;
+  height: 48px;
+}
+.userPass,
+.userRPass {
+  background: yellow;
+  padding-left: 30px;
+  margin-top: 2%;
+  background-color: #fdfdfd;
+  border-radius: 25px;
+  height: 48px;
+}
+#name,
+#email,
+#pass,
+#rpass {
+  background: transparent;
+  border: none;
+  height: 40px;
+  width: 100%;
+  font-size: large;
+  position: relative;
+  top: 5px;
+  left: 20px;
+}
+#name:focus,
+#email:focus,
+#pass:focus,
+#rpass:focus {
+  outline: none;
+}
+.logInButton {
+  border: none;
+  display: block;
+  height: 55px;
+  width: 98%;
+  border-radius: 25px;
+  font-size: large;
+  background: rgba(135, 206, 250, 0.719);
+}
+.logInButton:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1),
+    inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(56, 127, 235, 0.37);
+}
+.logInButton:active {
+  animation-name: clickerino;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  outline: none;
+}
+.recPassContainer {
+  margin-top: 25px;
+}
+.recPass {
+  color: #2f2f2f;
+  text-decoration: none;
+}
+.recPass:hover {
+  opacity: 0.5;
+}
+
+@keyframes clickerino {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.78);
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .cont_ppal {
+    margin: 0% 20%;
+  }
+}
+
+@media all and (max-width: 600px) {
+  #name,
+  #email,
+  #pass,
+  #rpass,
+  .logInButton {
+    font-size: small;
+  }
+  .userName {
+    background: green;
+    padding-left: 20px;
+    margin-top: 2%;
+    background-color: #fdfdfd;
+    border-radius: 25px;
+    height: 48px;
+  }
+  .userEmail {
+    background: purple;
+    padding-left: 20px;
+    margin-top: 2%;
+    background-color: #fdfdfd;
+    border-radius: 25px;
+    height: 48px;
+  }
+  .userPass,
+  .userRPass {
+    background: #2f2f2f;
+    padding-left: 20px;
+    margin-top: 2%;
+    background-color: #fdfdfd;
+    border-radius: 25px;
+    height: 48px;
+  }
+}
+
+@media all and (max-width: 466px) {
+  #name,
+  #email,
+  #pass,
+  #rpass,
+  .logInButton {
+    font-size: x-small;
+    margin: 0 auto;
+    padding: 0;
+  }
+}

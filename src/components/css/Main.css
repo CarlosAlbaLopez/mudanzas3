@@ -1,0 +1,27 @@
+.whatsapp {
+  position: fixed;
+  bottom: 2vh;
+  right: 8vw;
+  color: #2f2f2f;
+  z-index: 50;
+}
+
+.whatsapp-logo {
+  background-color: rgb(77, 194, 71);
+  color: #fdfdfd;
+  border-radius: 100%;
+  padding: 7px;
+  height: 50px;
+  width: 50px;
+}
+
+@media (max-width: 1100px) {
+  nav {
+    display: block;
+  }
+
+  #media-gallery {
+    grid-template-columns: 35% 35%;
+    grid-template-rows: 50% auto;
+  }
+}

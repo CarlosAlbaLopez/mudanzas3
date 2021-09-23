@@ -1,0 +1,115 @@
+.form-container {
+  background-color: #f8f8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.separator {
+  height: 3.8rem;
+}
+
+.title-mail {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  place-items: center;
+}
+
+.mail-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.form-container a:hover {
+  color: #e95a00;
+}
+
+#contact-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  place-items: center;
+  margin-top: 2rem;
+}
+
+.name,
+.email,
+.telephone {
+  grid-column: 1;
+}
+
+.message {
+  grid-column: 2;
+  grid-row: 1 / span 3;
+}
+
+input,
+textarea {
+  font-size: 1.5rem;
+}
+
+#form-button {
+  grid-column: 1 / span 2;
+  margin: 4rem;
+  background-color: #e95a00;
+  color: #fdfdfd;
+  border: 1px solid #e95a00;
+  border-radius: 5%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  place-self: center;
+  padding: 0.5rem;
+  width: 15rem;
+}
+
+#form-button:hover {
+  background-color: #f8f8ff;
+  color: #e95a00;
+  border: 1px solid #e95a00;
+}
+
+#form-button:active {
+  animation-name: clickerino;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+@keyframes clickerino {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.78);
+  }
+}
+
+@media (max-width: 1130px) {
+  #contact-form {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.6rem;
+    padding: 0;
+    margin-top: 0;
+  }
+
+  .separator {
+    height: 1rem;
+  }
+
+  .title-mail {
+    display: flex;
+    flex-direction: column;
+  }
+
+  input,
+  textarea {
+    font-size: 1rem;
+    margin: 0 0 0.5rem 0;
+  }
+
+  #form-button {
+    margin: 1rem 0 3rem 0;
+  }
+}

@@ -1,0 +1,15 @@
+.header-container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: center;
+  padding: 1rem 10%;
+  /**STICKY HEADER**/
+  position: sticky;
+  top: 0px;
+  z-index: 50;
+  background-color: rgba(253, 253, 253, 0.5);
+}
+
+.header-img {
+  width: 8rem;
+}
