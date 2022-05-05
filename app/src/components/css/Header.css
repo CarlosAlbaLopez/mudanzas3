@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr 3fr;
   align-items: center;
-  padding: 1rem 10%;
+  padding: 2rem 10%;
   /**STICKY HEADER**/
   position: sticky;
   top: 0px;
@@ -11,5 +11,11 @@
 }
 
 .header-img {
-  width: 8rem;
+  width: 12rem;
+}
+
+@media (max-width: 1130px) {
+  .header-container {
+    padding: 1rem 10%;
+  }
 }

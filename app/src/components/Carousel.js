@@ -4,58 +4,44 @@ import "./css/Carousel.css";
 const slides = [
   <div className="slide" key={0}>
     <div className="slide-text">
-      <h1>1 - Esse dolore voluptate ipsum irure sint quis excepteur irure.</h1>
+      <h1>1 - Mudanzas.</h1>
       <p>
-        Ea excepteur in commodo id cillum sunt excepteur adipisicing labore non.
-        Labore adipisicing ipsum anim magna ex incididunt. Id veniam pariatur
-        enim aute enim nulla reprehenderit voluptate sunt non in reprehenderit
-        exercitation. Eu sit excepteur ipsum quis ea est.
+        Servicio integral de empaquetamiento, transporte, almacenaje, montaje y
+        desmontaje. Con sedes en Galicia y Madrid.
       </p>
     </div>
     <div className="slide-image">
-      <img alt="" src="carretera.png" />
+      <img alt="" src="IMG-20220112-WA0003.jpg" />
     </div>
   </div>,
   <div className="slide left" key={1}>
     <div className="slide-image">
-      <img alt="" src="frente.png" />
+      <img alt="" src="IMG-20220112-WA0005.jpg" />
     </div>
     <div className="slide-text">
-      <h1>2 - Esse dolore voluptate ipsum irure sint quis excepteur irure.</h1>
-      <p>
-        Ea excepteur in commodo id cillum sunt excepteur adipisicing labore non.
-        Labore adipisicing ipsum anim magna ex incididunt. Id veniam pariatur
-        enim aute enim nulla reprehenderit voluptate sunt non in reprehenderit
-        exercitation. Eu sit excepteur ipsum quis ea est.
-      </p>
+      <h1>2 - Portes.</h1>
+      <div>
+        <p>Más de 5000 servicios en todo el territorio nacional.</p>
+        <p>Recogidas, envíos y entregas express.</p>
+      </div>
     </div>
   </div>,
   <div className="slide" key={2}>
     <div className="slide-text">
-      <h1>3 - Esse dolore voluptate ipsum irure sint quis excepteur irure.</h1>
-      <p>
-        Ea excepteur in commodo id cillum sunt excepteur adipisicing labore non.
-        Labore adipisicing ipsum anim magna ex incididunt. Id veniam pariatur
-        enim aute enim nulla reprehenderit voluptate sunt non in reprehenderit
-        exercitation. Eu sit excepteur ipsum quis ea est.
-      </p>
+      <h1>3 - Montaje y desmontaje de muebles.</h1>
+      <p>En todos nuestros transportes facilitamos este servicio.</p>
     </div>
     <div className="slide-image">
-      <img alt="" src="interior.png" />
+      <img alt="" src="IMG-20220112-WA0004.jpg" />
     </div>
   </div>,
   <div className="slide left" key={3}>
     <div className="slide-image">
-      <img alt="" src="playa.png" />
+      <img alt="" src="IMG-20220112-WA0005.jpg" />
     </div>
     <div className="slide-text">
-      <h1>4 - Esse dolore voluptate ipsum irure sint quis excepteur irure.</h1>
-      <p>
-        Ea excepteur in commodo id cillum sunt excepteur adipisicing labore non.
-        Labore adipisicing ipsum anim magna ex incididunt. Id veniam pariatur
-        enim aute enim nulla reprehenderit voluptate sunt non in reprehenderit
-        exercitation. Eu sit excepteur ipsum quis ea est.
-      </p>
+      <h1>4 - Servicio internacional.</h1>
+      <p>Con más de diez años de experiencia el sector.</p>
     </div>
   </div>,
 ];
@@ -71,7 +57,7 @@ export default function Carousel() {
       } else {
         setCurrentSlide((prevState) => prevState + 1);
       }
-    }, 4000);
+    }, 5500);
 
     return () => {
       clearInterval(interval);

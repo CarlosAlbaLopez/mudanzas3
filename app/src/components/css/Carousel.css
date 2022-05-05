@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   background-color: #f8f8ff;
-  padding: 5rem;
+  padding: 2rem 5rem;
 }
 
 .slide {
@@ -15,7 +15,7 @@
   animation-name: slideInFromLeft;
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
-  height: 500px;
+  height: 700px;
 }
 
 div.left {
@@ -58,7 +58,7 @@ div.left {
     align-items: center;
     justify-content: center;
     padding: 8rem 1rem;
-    height: 360px;
+    height: 500px;
   }
 
   .backbtn,
