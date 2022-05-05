@@ -14,9 +14,9 @@ export default function Navigation() {
         <li>
           <a href="#linktocontact">Contacto</a>
         </li>
-        <li>
+        {/* <li>
           <Link to={"/login"}>Iniciar Sesión</Link>
-        </li>
+        </li> */}
       </ol>
     </div>
   );

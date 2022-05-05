@@ -4,7 +4,7 @@ import "./css/Carousel.css";
 const slides = [
   <div className="slide" key={0}>
     <div className="slide-text">
-      <h1>1 - Mudanzas.</h1>
+      <h1>Mudanzas</h1>
       <p>
         Servicio integral de empaquetamiento, transporte, almacenaje, montaje y
         desmontaje. Con sedes en Galicia y Madrid.
@@ -19,16 +19,18 @@ const slides = [
       <img alt="" src="IMG-20220112-WA0005.jpg" />
     </div>
     <div className="slide-text">
-      <h1>2 - Portes.</h1>
+      <h1>Portes</h1>
       <div>
-        <p>Más de 5000 servicios en todo el territorio nacional.</p>
-        <p>Recogidas, envíos y entregas express.</p>
+        <p>
+          Más de 5000 servicios en todo el territorio nacional. Recogidas,
+          envíos y entregas express.
+        </p>
       </div>
     </div>
   </div>,
   <div className="slide" key={2}>
     <div className="slide-text">
-      <h1>3 - Montaje y desmontaje de muebles.</h1>
+      <h1>Montaje y desmontaje de muebles</h1>
       <p>En todos nuestros transportes facilitamos este servicio.</p>
     </div>
     <div className="slide-image">
@@ -40,7 +42,7 @@ const slides = [
       <img alt="" src="IMG-20220112-WA0005.jpg" />
     </div>
     <div className="slide-text">
-      <h1>4 - Servicio internacional.</h1>
+      <h1>Servicio internacional</h1>
       <p>Con más de diez años de experiencia el sector.</p>
     </div>
   </div>,

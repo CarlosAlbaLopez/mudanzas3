@@ -45,13 +45,8 @@ const services = [
   </div>,
   <div className="service-item-container" key={2}>
     <p>
-      3 - Est aliqua ut proident duis ipsum sunt nulla aliqua cillum amet
-      consequat magna qui. Est consectetur sit nostrud commodo duis qui eiusmod.
-      Et irure officia et culpa duis eu mollit nostrud exercitation non nostrud
-      non adipisicing non. Mollit do et occaecat sit. Eu ut esse laborum aliquip
-      officia commodo. Ullamco esse elit dolor officia nulla ipsum irure elit
-      Lorem. Nisi amet commodo eiusmod incididunt officia mollit commodo
-      voluptate.
+      El cuidado y el trato personal nos caracteriza. Con sede en A Coruña
+      trabajamos a lo largo de todo el territorio peninsular.
     </p>
   </div>,
 ];

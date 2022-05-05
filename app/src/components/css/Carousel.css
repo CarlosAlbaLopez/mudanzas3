@@ -18,16 +18,21 @@
   height: 700px;
 }
 
+.slide h1 {
+  font-size: 3rem;
+}
+
+.slide p {
+  font-size: 2rem;
+  opacity: 0.8;
+}
+
 div.left {
   column-gap: 4rem;
 }
 
 .slide-text {
   text-align: left;
-}
-
-.slide-text p {
-  text-align: justify;
 }
 
 .slide img {

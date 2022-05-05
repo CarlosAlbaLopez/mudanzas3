@@ -8,7 +8,7 @@ export default function Main() {
   return (
     <div id="#main">
       <a id="linktoservices" href></a>
-      <a href="https://wa.me/88888888" className="whatsapp" target="_blank">
+      <a href="https://wa.me/600700492" className="whatsapp" target="_blank">
         <AiOutlineWhatsApp className="whatsapp-logo" />
       </a>
       <Services />

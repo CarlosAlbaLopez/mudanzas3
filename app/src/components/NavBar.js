@@ -34,9 +34,9 @@ export default function NavBar() {
           <li className="nav-text">
             <a href="#linktocontact">Contacto</a>
           </li>
-          <li className="nav-text">
+          {/* <li className="nav-text">
             <Link to={"/login"}>Iniciar Sesión</Link>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>
